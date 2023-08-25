@@ -1,4 +1,4 @@
-package data.models;
+package africa.QuadKing.Blogger.data.models;
 
 public class User {
     private int id;
@@ -6,6 +6,7 @@ public class User {
     private String lastName;
     private String userName;
     private String password;
+
 
     public int getId() {
         return id;

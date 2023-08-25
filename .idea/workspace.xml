@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a4a7358-3146-4fec-8c84-7e53725c84b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7a4a7358-3146-4fec-8c84-7e53725c84b2" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blogger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/ArticleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/ArticleRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/CommentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/ArticleRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/CommentRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/SpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/CommentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/dtos/requests/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/dtos/responses/FindUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/services/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/services/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/utils/Mappers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blogger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Blogger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/models/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/models/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/ArticleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/ArticleRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/CommentRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/repositories/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/africa/QuadKing/Blogger/data/repositories/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/ArticleRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/ArticleRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/CommentRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/CommentRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repositories/UserRepositoryImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +51,27 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="QuadKing" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2LY8wQmAn9ewxJQBQrnWY9oiV3o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,30 +92,49 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/quadking/IdeaProjects/Blogger/src/africa&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.QuadKing.Blogger" />
+      <recent name="" />
+      <recent name="dtos.responses" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="services" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="services" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="data.repositories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleRepositoryImplTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArticleRepositoryImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.repositories.ArticleRepositoryImpl" />
       <module name="Blogger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="africa.QuadKing.Blogger.Main" />
+      <module name="Blogger" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +143,7 @@
       <module name="Blogger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +158,7 @@
       <module name="Blogger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +174,7 @@
       <module name="Blogger" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,29 +185,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryImplTest.saveOneUser_deleteOneUser_countIsZeroYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Blogger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="data.repositories.UserRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveOneUser_deleteOneUser_countIsZeroYTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArticleRepositoryImplTest" />
         <item itemvalue="Application.ArticleRepositoryImpl" />
         <item itemvalue="JUnit.ArticleRepositoryImplTest.saveTwoArticlesWithSameId_countIsOneTest" />
         <item itemvalue="JUnit.UserRepositoryImplTest" />
-        <item itemvalue="JUnit.UserRepositoryImplTest.saveOneUser_deleteOneUser_countIsZeroYTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,8 +208,25 @@
       <workItem from="1676326022098" duration="3050000" />
       <workItem from="1676349663699" duration="937000" />
       <workItem from="1676361208770" duration="2503000" />
-      <workItem from="1676363972730" duration="4626000" />
+      <workItem from="1676363972730" duration="25178000" />
+      <workItem from="1676418645518" duration="210000" />
+      <workItem from="1676609205019" duration="3005000" />
+      <workItem from="1676612342933" duration="86000" />
+      <workItem from="1677572802898" duration="7023000" />
+      <workItem from="1677752580120" duration="5839000" />
+      <workItem from="1678008305152" duration="597000" />
+      <workItem from="1679128048805" duration="1341000" />
+      <workItem from="1679157182691" duration="98000" />
+      <workItem from="1679672633953" duration="20000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1676369703890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676369703890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +242,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

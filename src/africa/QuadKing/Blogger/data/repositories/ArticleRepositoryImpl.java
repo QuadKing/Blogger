@@ -1,6 +1,6 @@
-package data.repositories;
+package africa.QuadKing.Blogger.data.repositories;
 
-import data.models.Article;
+import africa.QuadKing.Blogger.data.models.Article;
 
 import java.util.ArrayList;
 import java.util.List;

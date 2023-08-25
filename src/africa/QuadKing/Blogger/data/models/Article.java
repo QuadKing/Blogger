@@ -1,4 +1,4 @@
-package data.models;
+package africa.QuadKing.Blogger.data.models;
 
 import java.time.LocalDateTime;
 

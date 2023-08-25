@@ -1,6 +1,6 @@
-package data.repositories;
+package africa.QuadKing.Blogger.data.repositories;
 
-import data.models.User;
+import africa.QuadKing.Blogger.data.models.User;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -60,5 +60,15 @@ public class UserRepositoryImpl implements UserRepository {
     @Override
     public void deleteAll() {
 
+    }
+
+    @Override
+    public User findByUserName(String userName) {
+        for (User user : users){
+            if (user.getUserName().equalsIgnoreCase(userName)){
+                return user;
+            }
+        }
+        return null;
     }
 }

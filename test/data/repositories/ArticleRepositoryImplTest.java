@@ -1,6 +1,8 @@
 package data.repositories;
 
-import data.models.Article;
+import africa.QuadKing.Blogger.data.models.Article;
+import africa.QuadKing.Blogger.data.repositories.ArticleRepository;
+import africa.QuadKing.Blogger.data.repositories.ArticleRepositoryImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
